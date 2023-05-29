@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('views/dashboard/images/birgith-roosipuu-CJFG-GOAeVk-unsplash.jpg');
+    width: 50%;
+    height: 50%;
+    background-blur: 100px;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding-top: 100px;
+    color: #000000;
+  }
+  
+  .welcome-message {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff5f5;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .button {
+      display: block;
+      margin: 10px auto;
+    }
+  }
